@@ -11,12 +11,21 @@
     align-items: center;
     gap: 10px;
     animation: fadeIn 0.5s ease-in-out;
+    z-index: 9999;
+}
+
+.shopwice-notification a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
 }
 
 .shopwice-notification img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .shopwice-notification p {
